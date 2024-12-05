@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import { navbarConfig } from "./navbar/index.js";
 import { sidebarConfig } from "./sidebar/index.js";
+import { cut } from "nodejs-jieba";
 
 export default hopeTheme({
   hostname: "https://blogs.31415.online",
@@ -13,9 +13,9 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://oss.07230805.xyz/files/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/kittors/my-docs",
 
   docsDir: "src",
 
@@ -34,12 +34,12 @@ export default hopeTheme({
       // sidebar
       sidebar: sidebarConfig,
 
-      footer: "Default footer",
+      footer: "别打扰我写代码啦～",
 
       displayFooter: true,
 
       blog: {
-        description: "A FrontEnd programmer",
+        description: "一个菜鸟程序员",
         intro: "/intro.html",
       },
 
@@ -61,7 +61,20 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-
+    searchPro: {
+      indexContent: true,
+      hotReload: true,
+      customFields: [
+        {
+          getter: ({ frontmatter }): string[] => frontmatter.tag as string[],
+          formatter: `Tag: $content`,
+        },
+      ],
+      indexOptions: {
+        tokenize: (text, fieldName) =>
+          fieldName === "id" ? [text] : cut(text, true),
+      },
+    },
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.

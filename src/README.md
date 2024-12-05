@@ -3,9 +3,9 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: https://oss.07230805.xyz/files/logo.svg
 heroText: Kittros Blog
-heroFullScreen: true
+heroFullScreen: true,
 tagline: 知行合一 止于至善
 # projects:
 #   - icon: project
