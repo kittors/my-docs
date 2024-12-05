@@ -3,6 +3,6 @@ icon: circle-info
 cover: /assets/images/cover3.jpg
 ---
 
-# Intro Page
+# 个人介绍
 
-Place your introduction and profile here.
+喜欢瞎折腾，对VPS、软路由、编程感兴趣
