@@ -6,7 +6,7 @@ title: 博客主页
 heroImage: https://syncoss.07230805.xyz/logo.svg
 heroText: Kittros Blog
 heroFullScreen: true,
-tagline: 知行合一 止于至善
+tagline: 打造自己的知识文档
 # projects:
 #   - icon: project
 #     name: 项目名称 
