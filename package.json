@@ -19,7 +19,7 @@
     "vue": "^3.5.8",
     "vuepress": "2.0.0-rc.15",
     "vuepress-plugin-search-pro": "2.0.0-rc.59",
-    "vuepress-theme-hope": "2.0.0-rc.56"
+    "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
     "@vuepress/plugin-redirect": "2.0.0-rc.8"

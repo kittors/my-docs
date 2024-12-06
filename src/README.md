@@ -3,13 +3,13 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: https://oss.07230805.xyz/files/logo.svg
+heroImage: https://syncoss.07230805.xyz/logo.svg
 heroText: Kittros Blog
 heroFullScreen: true,
 tagline: 知行合一 止于至善
 # projects:
 #   - icon: project
-#     name: 项目名称
+#     name: 项目名称 
 #     desc: 项目详细描述
 #     link: https://你的项目链接
 

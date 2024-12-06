@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://oss.07230805.xyz/files/logo.svg",
+  logo: "https://syncoss.07230805.xyz/logo.svg",
 
   repo: "https://github.com/kittors/my-docs",
 
