@@ -3,17 +3,17 @@
   "type": "module",
   "version": "1.0.0",
   "description": "A Blog",
-  "packageManager": "pnpm@9.10.0",
+  "packageManager": "pnpm@9.14.4",
   "author": "Kittors <364299311@qq.com>",
   "license": "MIT",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "docs:dev": "vuepress dev docs",
-    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "dev": "vuepress-vite dev docs",
+    "docs:dev": "vuepress-vite dev docs",
+    "docs:dev-clean": "vuepress-vite dev docs --clean-cache",
+    "docs:build": "vuepress-vite build docs",
     "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update"
   },
